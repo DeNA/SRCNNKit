@@ -5,7 +5,9 @@ For details, see the following presentaion:
 
 https://www.tryswift.co/events/2018/tokyo/en/#coreml
 
-**This project dosen't contain *.mlmodel yet. You should train your own model and import `SRCNN.mlmodel` to your project.**
+## Pre trained model
+
+__Sorry, this project dosen't contain *.mlmodel yet. You should train your own model and import `SRCNN.mlmodel` to your project.__
 
 
 ## iOS
@@ -29,13 +31,14 @@ imageView.setSRImage(image)
 - iOS11
 - Xcode9.x
 
-## Development SRCNNKit
-
-### Setup
+## Run sample project
+- Copy your `SRCNN.mlmodel` to `model` directory
+- Run following command:
 ```shell
 git submodule init
 git submodule update
 ```
+- Open `SRCNN-ios/SRCNN-ios.xcodeproj` and Run
 
 ## Train Your own model
 
