@@ -34,7 +34,7 @@ imageView.setSRImage(image)
 ## Run sample project
 - Copy your `SRCNN.mlmodel` to `model` directory
 - Run following command:
-```shell
+```bash
 git submodule init
 git submodule update
 ```
@@ -48,29 +48,29 @@ git submodule update
 
 ### Convert Training Data
 
-```shell
+```bash
 cd script
 python3 convert.py <original train image dir> <train data dir>
 python3 convert.py <original validation image dir> <validation data dir>
 ```
 
 ### Training
-```shell
+```bash
 python3 train.py <tf log dir> <model output dir> <train data dir> <validation data dir>
 
 ```
 ### Plot Model Image
-```shell
+```bash
 python plot.py <.h5 model path> <output dir>
 ```
 
 ### Convert Keras to CoreML Model
-```shell
+```bash
 python3 coreml_convert.py <h5 mode path> <output dir>
 ```
 
 ### Validate CoreML Model
-```shell
+```bash
 python3 coreml_predict.py <mlmodel path> <input patch image path> <output patch image path>
 ```
 
