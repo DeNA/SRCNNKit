@@ -3,7 +3,7 @@ Implementation of Super Resolution (SR) with CoreML and Swift. You can use SR me
 
 For details, see the following presentaion:
 
-https://www.tryswift.co/events/2018/tokyo/en/#coreml
+https://speakerdeck.com/kenmaz/super-resolution-with-coreml-at-try-swift-tokyo-2018
 
 ## Pre trained model
 
