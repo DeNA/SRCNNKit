@@ -7,7 +7,9 @@ https://speakerdeck.com/kenmaz/super-resolution-with-coreml-at-try-swift-tokyo-2
 
 ## Pre trained model
 
-__Sorry, this project dosen't contain *.mlmodel yet. You should train your own model and import `SRCNN.mlmodel` to your project.__
+Sorry, this project dosen't contain *.mlmodel yet. You should train your own model and import `SRCNN.mlmodel` to your project.
+
+__or use this fork: https://github.com/kenmaz/SRCNNKit__
 
 
 ## iOS
