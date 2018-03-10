@@ -23,11 +23,11 @@ def predict(srcnn_model, input_path, out_dir, use_coreml):
     img = cv2.imread(input_path, cv2.IMREAD_COLOR)
     dst = numpy.copy(img)
     h,w,c = img.shape
-    blk = numpy.zeros((h+12,w+12,c))
-    blk[6:6+h, 6:6+w,:] = img
+    blk = numpy.zeros((h,w,c))
+    blk[0:h, 0:w, :] = img
     dst_base = numpy.copy(blk)
-    for y in range(0, h+12, label_size):
-        for x in range(0, w+12, label_size):
+    for y in range(0, h, label_size):
+        for x in range(0, w, label_size):
             part = blk[y:y+input_size,x:x+input_size]
             in_path = "out/pred_in/%d-%d.png" % (y,x)
             ba_path = "out/pred_base/%d-%d.png" % (y,x)
@@ -42,7 +42,7 @@ def predict(srcnn_model, input_path, out_dir, use_coreml):
     base_path = os.path.join(out_dir, 'base.png')
     out_path = os.path.join(out_dir, 'out.png')
     print(base_path, out_path)
-    cv2.imwrite(base_path, dst_base[6:-6,6:-6])
+    cv2.imwrite(base_path, dst_base)
     cv2.imwrite(out_path, dst)
 
 def make_base(img, ba_path, ot_path):

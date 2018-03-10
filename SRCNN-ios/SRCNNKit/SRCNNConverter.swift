@@ -11,7 +11,7 @@ import CoreML
 public class SRCNNConverter {
 
     static let shared = SRCNNConverter()
-    private let shrinkSize = 6
+    private let shrinkSize = 0
 
     private let patchInSize = 200
     private let patchOutSize = 200
