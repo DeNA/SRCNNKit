@@ -26,7 +26,7 @@
 		5E6EACC920383D2D001DC8F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E6EACC720383D2D001DC8F0 /* Main.storyboard */; };
 		5E6EACCB20383D2D001DC8F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E6EACCA20383D2D001DC8F0 /* Assets.xcassets */; };
 		5E6EACCE20383D2D001DC8F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E6EACCC20383D2D001DC8F0 /* LaunchScreen.storyboard */; };
-		5E83A48B204384B0004C93D7 /* sample.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E83A48A204384B0004C93D7 /* sample.png */; };
+		5EF806302053BE87005FCE6C /* sample.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EF8062F2053BE86005FCE6C /* sample.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,9 +73,9 @@
 		5E6EACCA20383D2D001DC8F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E6EACCD20383D2D001DC8F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E6EACCF20383D2D001DC8F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5E83A48A204384B0004C93D7 /* sample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sample.png; sourceTree = "<group>"; };
 		5E83A48C2043851F004C93D7 /* SRCNN.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = SRCNN.mlmodel; path = ../../model/SRCNN.mlmodel; sourceTree = "<group>"; };
 		5EEB699E203885F4004CF9E6 /* SRCNNConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRCNNConverter.swift; sourceTree = "<group>"; };
+		5EF8062F2053BE86005FCE6C /* sample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sample.png; path = ../../model/sample/sample.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,7 +153,7 @@
 				5E6EACCA20383D2D001DC8F0 /* Assets.xcassets */,
 				5E6EACCC20383D2D001DC8F0 /* LaunchScreen.storyboard */,
 				5E6EACCF20383D2D001DC8F0 /* Info.plist */,
-				5E83A48A204384B0004C93D7 /* sample.png */,
+				5EF8062F2053BE86005FCE6C /* sample.png */,
 			);
 			path = "SRCNN-ios";
 			sourceTree = "<group>";
@@ -263,7 +263,7 @@
 				5E6EACCE20383D2D001DC8F0 /* LaunchScreen.storyboard in Resources */,
 				5E6EACCB20383D2D001DC8F0 /* Assets.xcassets in Resources */,
 				5E6EACC920383D2D001DC8F0 /* Main.storyboard in Resources */,
-				5E83A48B204384B0004C93D7 /* sample.png in Resources */,
+				5EF806302053BE87005FCE6C /* sample.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
