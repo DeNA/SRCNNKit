@@ -5,9 +5,9 @@ For details, see the following presentaion:
 
 https://speakerdeck.com/kenmaz/super-resolution-with-coreml-at-try-swift-tokyo-2018
 
-## Pre trained model
+## About pre-trained model
 
-__Sorry, this project dosen't contain *.mlmodel yet. You should train your own model and import `SRCNN.mlmodel` to your project.__
+https://github.com/kenmaz/SRCNNKit/blob/master/model/README.md
 
 
 ## iOS
