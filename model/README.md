@@ -12,6 +12,11 @@ http://mangaonweb.com/company/download/
 ## output (800x1200)
 <img src="https://raw.githubusercontent.com/kenmaz/SRCNNKit/master/model/sample/output.png" width="400" />
 
+# Results
+
+<img src="https://drive.google.com/file/d/11XXc7zO4eKmIK3kaq6EifsGJbjHTUHRU/view?usp=sharing" width="400" />
+
+
 # Credit
 ブラックジャックによろしく 佐藤秀峰
 
