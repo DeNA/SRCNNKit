@@ -14,7 +14,7 @@ http://mangaonweb.com/company/download/
 
 # Results
 
-<img src="https://drive.google.com/file/d/11XXc7zO4eKmIK3kaq6EifsGJbjHTUHRU/view?usp=sharing" width="400" />
+<img src="http://drive.google.com/uc?export=view&id=11XXc7zO4eKmIK3kaq6EifsGJbjHTUHRU" width="400" />
 
 
 # Credit
