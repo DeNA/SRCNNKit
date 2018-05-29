@@ -7,8 +7,7 @@ https://speakerdeck.com/kenmaz/super-resolution-with-coreml-at-try-swift-tokyo-2
 
 ## About pre-trained model
 
-https://github.com/kenmaz/SRCNNKit/blob/master/model/README.md
-
+https://github.com/DeNA/SRCNNKit/blob/master/model/README.md
 
 ## iOS
 
